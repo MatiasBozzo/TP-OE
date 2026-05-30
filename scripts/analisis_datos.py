@@ -37,3 +37,36 @@ ventas_por_mes = (
 #Mostramos las ventas por mes
 print("\nVentas por mes:")
 print(ventas_por_mes)
+
+### GRAFICO ###
+
+#Definimos el tamaño del grafico
+plt.figure(figsize=(8, 4))
+
+#Dibujamos el grafico
+plt.plot(
+    #Eje X
+    ventas_por_mes["mes"],
+    #Eje Y
+    ventas_por_mes["sales_amount"],
+    marker="o"
+)
+
+#Agregamos el titulo al grafico
+plt.title("Evolución de ventas")
+#Agregamos el nombre del eje X
+plt.xlabel("Mes")
+#Agregamos el nombre del eje Y
+plt.ylabel("Facturación")
+
+#Rotamos la posicion de los valores para que no se superpongan
+plt.xticks(rotation=45)
+
+#Ajustamos automaticamente los espacios del grafico
+plt.tight_layout()
+
+#Guardamos el grafico
+plt.savefig("resultados/grafico_resultados.png")
+
+#Avisamos que el grafico se genero correctamente y su ubicacion
+print(f"\nGráfico generado correctamente.\nUbicado en: resultados/grafico_resultados.png")
