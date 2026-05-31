@@ -1,8 +1,23 @@
-# TP-OE
-Tp organizacion empresarial, ejemplo ventas
+Trabajo Práctico N°2 - Unidad 4
+Trabajo Práctico: Gestión Colaborativa, Control de Versiones y
+Organización Empresarial (Git, GitHub y Jira)
 
-Alumno : Bozzo Matias Javier - comision 6
+Alumno – Comision 6
+Matias Javier Bozzo
 
-Elegi el Escenario B – Análisis de Ventas de una Pequeña Empresa
+Tecnicatura Universitaria en Programación - Universidad Tecnológica Nacional.
+Organización Empresarial
+Docente Titular
+Carolina Bruno
+Docente Tutor
+Franco Corts-Romero
 
-Utilice el dataset 10.3 Dataset de Ventas Simuladas (gist)
+30 de mayo de 2026
+
+
+Escenario elegido: B – Análisis de Ventas de una Pequeña Empresa
+
+Dataset utilizado: 10.3 Dataset de Ventas Simuladas (gist)
+
+Estructura del proyecto:
+
